@@ -220,6 +220,6 @@ module.exports = function startWebPanel(bot) {
   })
 
   server.listen(3001, () => {
-    console.log("🌐 Panel Web : http://localhost:3001")
+    console.log("🌐 Panel Web : http://localhost")
   })
 }
