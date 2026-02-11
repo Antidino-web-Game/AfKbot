@@ -219,7 +219,7 @@ module.exports = function startWebPanel(bot) {
     })
   })
 
-  server.listen(80, () => {
-    console.log("🌐 Panel Web : http://localhost")
+  server.listen(800, () => {
+    console.log("🌐 Panel Web : http://localhost:800")
   })
 }

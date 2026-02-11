@@ -294,3 +294,7 @@ setInterval(() => {
   socket.emit('request_update')
   socket.emit('request_world_chunks')
 }, 1000)
+
+server.listen(80, () => {
+  console.log("🌐 Panel Web : http://localhost")
+})
