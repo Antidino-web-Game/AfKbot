@@ -51,7 +51,7 @@ io.on('connection', (socket) => {
 });
 
 // ── Démarrage ────────────────────────────────────────────────────
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`╔══════════════════════════════════════════╗`);
   console.log(`║  AfKBot Panel  →  http://localhost:${PORT}   ║`);

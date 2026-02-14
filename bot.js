@@ -70,7 +70,7 @@ function createBot(cfg = {}) {
 
     // Prismarine-viewer (une seule fois par processus)
     if (!viewerStarted) {
-      mineflayerViewer(bot, { port: 8080, firstPerson: false });
+      mineflayerViewer(bot, { port: 8000, firstPerson: false });
       viewerStarted = true;
       addChat('system', '🎥 Viewer 3D démarré sur le port 8080');
     }
