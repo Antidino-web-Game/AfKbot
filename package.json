@@ -1,7 +1,9 @@
 {
   "dependencies": {
-    "mineflayer": "^4.34.0",
+    "canvas": "^3.2.1",
+    "mineflayer": "^4.0.0",
+    "mineflayer-auto-auth": "^2.0.0",
     "mineflayer-pathfinder": "^2.4.5",
-    "mineflayer-web-inventory": "^1.8.5"
+    "prismarine-viewer": "^1.33.0"
   }
 }
